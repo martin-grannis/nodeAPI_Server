@@ -33,11 +33,11 @@ db.sequelize.sync();
 //require("./routes/users.routes")(app);
 
 // view engine setup
-// app.set("views", path.join(__dirname, "views"));
-// app.set("view engine", "pug");
+app.set("views", path.join(__dirname, "views/pages"));
+app.set("view engine", "pug");
 
-app.set("views", path.join(__dirname, "views/pages"))
-app.set("view engine", "ejs")
+// app.set("views", path.join(__dirname, "views/pages"))
+// app.set("view engine", "ejs")
 
 
 // Set public path
